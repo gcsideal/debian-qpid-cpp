@@ -35,6 +35,7 @@ Description: enterprise messaging system - AMQP client
 
 Package: libqmf1
 Architecture: any
+Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: multiarch-support
 Multi-Arch: same
@@ -62,6 +63,7 @@ Description: enterprise messaging system - QMF development files
 
 Package: libqmf2-1
 Architecture: any
+Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: multiarch-support
 Multi-Arch: same
@@ -89,6 +91,7 @@ Description: enterprise messaging system - QMF2 development files
 
 Package: libqmfconsole2
 Architecture: any
+Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: multiarch-support
 Multi-Arch: same
@@ -115,6 +118,7 @@ Description: enterprise messaging system - QMF console development files
 
 Package: libqpidmessaging2
 Architecture: any
+Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: multiarch-support
 Multi-Arch: same
@@ -141,6 +145,7 @@ Description: enterprise messaging system - AMQP messaging development files
 
 Package: libsslcommon2
 Architecture: any
+Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: multiarch-support
 Multi-Arch: same
@@ -167,6 +172,7 @@ Description: enterprise messaging system - common SSL development files
 
 Package: librdmawrap2
 Architecture: any
+Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: multiarch-support
 Multi-Arch: same
@@ -193,6 +199,7 @@ Description: enterprise messaging system - RDMA development files
 
 Package: libqpidtypes1
 Architecture: any
+Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: multiarch-support
 Multi-Arch: same
@@ -219,6 +226,7 @@ Description: enterprise messaging system - API development files
 
 Package: libqpidcommon2
 Architecture: any
+Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: multiarch-support
 Multi-Arch: same
@@ -245,6 +253,7 @@ Description: enterprise messaging system - common development files
 
 Package: libqpidclient2
 Architecture: any
+Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: multiarch-support
 Multi-Arch: same
@@ -271,6 +280,7 @@ Description: enterprise messaging system - client development files
 
 Package: libqpidbroker2
 Architecture: any
+Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: multiarch-support
 Multi-Arch: same
@@ -297,6 +307,7 @@ Description: enterprise messaging system - broker development files
 
 Package: libqmfengine1
 Architecture: any
+Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: multiarch-support
 Multi-Arch: same
