@@ -1,6 +1,7 @@
-qpid-cpp (0.16-9) UNRELEASED; urgency=medium
+qpid-cpp (0.16-9) unstable; urgency=medium
 
   * Update package sections to match override.
+  * Make libibverbs-dev build-dependency linux-any.
 
  -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sun, 26 Oct 2014 07:22:52 +0000
 
