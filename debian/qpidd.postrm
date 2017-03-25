@@ -8,6 +8,7 @@ fi
 
 if [ "$1" = "purge" ]; then
   echo -n "Removing qpidd configuration... "
+  rm -f /etc/qpid/qpidd.sasldb 2>/dev/null || true
   rm -f /etc/qpid/qpidd.conf 2>/dev/null || true
   rm -r /etc/qpid/qpidd.acl 2>/dev/null || true
   rm -rf /etc/qpid/sasl 2>/dev/null || true
