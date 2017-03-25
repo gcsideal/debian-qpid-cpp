@@ -1,3 +1,14 @@
+qpid-cpp (0.16-7.2) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * Non-maintainer upload.
+  * Fix "hardcodes /usr/lib/perl5":
+    make debian/libqpid-perl.install executable, and use $Config{vendorarch}
+    to get the perl library path
+    (Closes: #752808)
+
+ -- Damyan Ivanov <dmn@debian.org>  Mon, 04 Aug 2014 11:56:12 +0000
+
 qpid-cpp (0.16-7.1) unstable; urgency=medium
 
   * Non-maintainer upload.
