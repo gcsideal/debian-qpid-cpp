@@ -1,8 +1,9 @@
-qpid-cpp (0.16-8) UNRELEASED; urgency=low
+qpid-cpp (0.16-8) unstable; urgency=low
 
   * Add Japanese Debconf translation (closes: #692839).
   * Remove qpidd.sasldb on purge (closes: #715438).
   * Update Standards-Version to 3.9.6 .
+  * New maintainer (closes: #757652).
 
  -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sat, 25 Oct 2014 11:53:58 +0000
 

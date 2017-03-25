@@ -17,7 +17,8 @@ License: Apache-2.0
  can be found in the file '/usr/share/common-licenses/Apache-2.0'.
 
 Files: debian/*
-Copyright: 2010, Cajus Pollmeier <cajus@debian.org>
+Copyright: 2014, Laszlo Boszormenyi (GCS) <gcs@debian.org>,
+ 2010, Cajus Pollmeier <cajus@debian.org>
 License: GPL-2+
  On Debian systems, the complete text of the GNU General Public
  License can be found in the file '/usr/share/common-licenses/GPL-2'.
